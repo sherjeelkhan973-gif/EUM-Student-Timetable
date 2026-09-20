@@ -1,0 +1,28 @@
+{
+  "name": "EUM Student Timetable",
+  "options": [
+    {
+      "title": "Program family",
+      "name": "family",
+      "type": "string",
+      "default": "ALL",
+      "hint": "Use ALL for automatic rotation through all 9 timetable files, or enter a family name such as Artificial Intelligence."
+    },
+    {
+      "title": "Rotation seconds",
+      "name": "rotation_seconds",
+      "type": "string",
+      "default": "12",
+      "hint": "How long each class section remains on screen."
+    }
+  ],
+  "presets": {
+    "all_programs": {
+      "desc": "Rotate automatically through all 9 uploaded timetable groups.",
+      "config": {
+        "family": "ALL",
+        "rotation_seconds": "12"
+      }
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "EUM Student Timetable",
+  "author": "Emerson University Multan",
+  "desc": "Professional automatic student class timetable display for Emerson University Multan.",
+  "version": "1.0",
+  "lifecycle": "production",
+  "platforms": [
+    "pi/epoch-1",
+    "pi/epoch-2"
+  ],
+  "runtime": {
+    "antialias": true
+  },
+  "offline": {
+    "support": "yes",
+    "info": "Timetable data is bundled in the package; the display works without Internet after installation."
+  }
+}
