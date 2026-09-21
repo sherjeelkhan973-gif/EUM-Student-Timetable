@@ -17,7 +17,7 @@
     }
   ],
   "presets": {
-    "all_programs": {
+    "allprograms": {
       "desc": "Rotate automatically through all 9 uploaded timetable groups.",
       "config": {
         "family": "ALL",
